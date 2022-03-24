@@ -16,6 +16,6 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
-- name: Telegram Notify
-  uses: appleboy/telegram-action@0.0.3
+name: Telegram Notify
+uses: appleboy/telegram-action@0.0.3
 
